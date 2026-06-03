@@ -187,6 +187,15 @@
   <section class="posts-section" id="page-home-posts">
     <p class="section-label">Gần đây</p>
     <div class="posts-grid">
+    <article class="post-card" onclick="showArticle('bai-4')">
+      <div class="post-thumb" style="background:#DDE6D5;"></div>
+      <div class="post-body">
+        <span class="post-tag">Quan sát</span>
+        <h3>Một số quan sát thú vị</h3>
+        <p>Không có kết luận gì lớn lao, chỉ là những thứ tôi để ý được...</p>
+        <div class="post-meta"><span>3 tháng 6</span><span>·</span><span>4 phút</span></div>
+      </div>
+    </article>
     <article class="post-card" onclick="showArticle('bai-3')">
       <div class="post-thumb" style="background:#C8D4C0;"></div>
       <div class="post-body">
@@ -245,6 +254,32 @@
 
 <script>
 const articles = {
+  'bai-4': {
+    tag: 'Quan sát',
+    title: 'Những quan sát thú vị',
+    date: '3 tháng 6, 2026',
+    readtime: '4 phút đọc',
+    content: [
+      'Người nói to nhất trong văn phòng thường là người ít nhận lại tương tác nhất. Không phải vì người ta ghét họ, mà vì giọng to quá thì người ta hay giả vờ không nghe.',
+      'Người hay nói "tôi rất bận" thường là người ít output nhất. Người thật sự bận thì không có thời gian để nói chuyện về việc mình bận.',
+      'Trong một cuộc họp, người im lặng nhất thường là người đang nghĩ nhiều nhất hoặc không nghĩ gì cả — và rất khó biết đó là trường hợp nào.',
+      'Người hay dùng từ "thật ra" trước mỗi câu thường đang chuẩn bị nói ngược lại với những gì vừa được nói, dù họ không có thêm thông tin gì mới hơn.',
+      'Khi ai đó bắt đầu bằng "tôi không có ý gì đâu nhé" thì gần như chắc chắn họ có ý.',
+      'Người hay than thở về người khác nhiều nhất thường là người muốn được lắng nghe nhất — vấn đề không phải là người kia mà là họ đang cần ai đó ngồi nghe họ nói.',
+      'Càng lớn tuổi người ta càng ít hỏi "tại sao" và càng hay hỏi "để làm gì" — không biết đó là trưởng thành hay là đã bớt tò mò.',
+      'Những người hay nói "hồi xưa tôi cũng như bạn" thường đang chuẩn bị không đồng ý với bạn.',
+      'Người hay cười to ở chỗ đông người đôi khi là người cô đơn nhất khi về nhà. Không phải lúc nào cũng vậy, nhưng đủ thường để tôi để ý.',
+      'Những người mà ai cũng nói chuyện được thường là người hiểu rằng mình không cần phải là trung tâm của cuộc trò chuyện đó.',
+      'Người hài hước nhất trong phòng thường là người quan sát nhiều nhất — họ không cố gắng buồn cười, họ chỉ đang kể lại những gì họ thấy.',
+      'Người hay đến sớm nhất thường không phải người chăm chỉ nhất mà là người lo lắng nhất — họ sợ bị nhìn là trễ hơn là thật sự muốn có mặt sớm.',
+      'Khi một nhóm người cùng cười một ai đó không có mặt ở đó, trong đám đó thế nào cũng có một người đang nghĩ "không biết họ có nói vậy về mình không."',
+      'Người hay giải thích dài nhất thường là người không chắc nhất về những gì họ đang nói.',
+      'Trong một mối quan hệ bất kỳ, người chủ động liên lạc nhiều hơn thường là người quan tâm nhiều hơn — và họ biết điều đó, dù không nói ra.',
+      'Người hay nói "tôi thẳng thắn lắm" đôi khi chỉ đang tìm cách nói những thứ khó nghe mà không phải chịu trách nhiệm về cảm xúc của người nghe.',
+      'Những buổi họp kết thúc đúng giờ thường là những buổi họp có người chuẩn bị kỹ nhất — không phải ngẫu nhiên mà ngắn gọn.',
+      'Người càng ít đăng lên mạng xã hội thường càng khó đoán họ đang nghĩ gì — và đó đôi khi là lợi thế.'
+    ]
+  },
   'bai-3': {
     tag: 'Suy nghĩ',
     title: 'Tôi chấp nhận việc không là ai trong thế giới này cả',
